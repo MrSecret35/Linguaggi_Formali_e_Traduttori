@@ -1,0 +1,23 @@
+(do
+	//(= x (+ x 1))
+	(read var_01)
+    	(print var_01)
+	(read _var02)
+	(while (>= var_01 0) 
+		(cond (> var_01 5)
+			(do
+				(print var_01 _var02 5)
+				(= var_01 (- var_01 1))
+			)
+		(else
+			(do
+				(print (+ var_01 _var02 5))
+				(= var_01 (- var_01 1))
+			)
+			/* esame lab
+			*/
+		))
+				
+	)
+)
+//esame lft
